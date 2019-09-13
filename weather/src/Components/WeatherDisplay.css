@@ -1,0 +1,28 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.weather-display.cold i {
+  color: blue;
+}
+
+.weather-display.hot i {
+  color: red;
+}
+
+.weather-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cold {
+  background-color: aliceblue;
+}
+
+.hot {
+  background-color: orange;
+}
